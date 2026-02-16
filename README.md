@@ -2,7 +2,7 @@
 
 Workshop materials for the AstroNuc 2026 practical session.
 
-This repository contains Jupyter notebooks and helper code for working with models, profiles, and generating animations.
+This repository contains interactive Jupyter notebooks and supporting data, models, and images. The practical session slides are also available.
 
 ---
 
