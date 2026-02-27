@@ -19,7 +19,7 @@ This repository contains interactive Jupyter notebooks and supporting data, mode
 
 4. Open a terminal and `cd` into the folder:
    ```bash
-   cd AstroNuc2026_practical_session
+   cd AstroNuc2026_practical_session*
    ```
 5. Launch Jupyter:
    ```bash
