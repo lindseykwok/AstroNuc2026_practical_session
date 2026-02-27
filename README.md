@@ -54,6 +54,7 @@ We recommend using a fresh environment
   ```bash
   conda create -n astronuc2026 python=3.11
   conda activate astronuc2026
+  cd AstroNuc2026_practical_session
   pip install -r requirements.txt
   ```
 ### ✅ Quick sanity check
