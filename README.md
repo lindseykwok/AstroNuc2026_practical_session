@@ -41,7 +41,8 @@ We recommend using a fresh environment
   conda activate astronuc2026
   ```
 
-Now navigate into the repository folder.\
+Now navigate into the repository folder.
+
 >If you downloaded the ZIP:
    ```bash
   cd AstroNuc2026_practical_session-main
