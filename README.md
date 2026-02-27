@@ -41,12 +41,12 @@ We recommend using a fresh environment
   conda activate astronuc2026
   ```
 
-Now navigate into the repository folder.
-If you downloaded the ZIP:
+Now navigate into the repository folder.\
+   If you downloaded the ZIP:
    ```bash
   cd AstroNuc2026_practical_session-main
    ```
-If you cloned with Git:
+   If you cloned with Git:
    ```bash
   cd AstroNuc2026_practical_session
    ```
@@ -58,7 +58,7 @@ Install required packages:
 
 ## 🚀 Step 3 - Launch Jupyter
 
-Make sure you are in the conda environment (`code conda activate astronuc2026`) before launching Jupyter:
+Make sure you are in the conda environment (`conda activate astronuc2026`) before launching Jupyter:
    ```bash
    jupyter lab
    ```
