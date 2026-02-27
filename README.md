@@ -6,28 +6,20 @@ This repository contains interactive Jupyter notebooks and supporting data, mode
 
 ---
 
-## 📥 How to Get the Materials
+## 📥 Step 1 - Get the Materials
 
-### Option 1 — Download as a ZIP (recommended if you're not familiar with Git)
+### Option 1 — Download as a ZIP (no Git required)
 
-1. Go to this repository on GitHub:
+1. Go to:
    `https://github.com/lindseykwok/AstroNuc2026_practical_session`
 
 2. Click the green **Code** button → **Download ZIP**.
 
 3. Unzip the folder.
 
-4. Open a terminal and `cd` into the folder:
-   ```bash
-   cd AstroNuc2026_practical_session*
-   ```
-5. Launch Jupyter:
-   ```bash
-   jupyter lab
-   ```
-   or
-   ```bash
-   jupyter notebook
+You should now see a folder named something like:
+   ```code
+   AstroNuc2026_practical_session-main
    ```
 
 ### Option 2 — Clone with Git (recommended if you use Git)
@@ -39,7 +31,34 @@ To pull updates later:
   ```bash
   git pull
   ```
-Then launch Jupyter:
+
+## 🛠 Step 2 - Create the Environment
+We recommend using a fresh environment
+
+### Conda (recommended)
+  ```bash
+  conda create -n astronuc2026 python=3.11
+  conda activate astronuc2026
+  ```
+
+Now navigate into the repository folder.
+If you downloaded the ZIP:
+   ```bash
+  cd AstroNuc2026_practical_session-main
+   ```
+If you cloned with Git:
+   ```bash
+  cd AstroNuc2026_practical_session
+   ```
+
+Install required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 🚀 Step 3 - Launch Jupyter
+
+Make sure you are in the conda environment (`code conda activate astronuc2026`) before launching Jupyter:
    ```bash
    jupyter lab
    ```
@@ -47,16 +66,8 @@ Then launch Jupyter:
    ```bash
    jupyter notebook
    ```
-## 🛠 Setup / Installation
-We recommend using a fresh environment
 
-### Conda (recommended)
-  ```bash
-  conda create -n astronuc2026 python=3.11
-  conda activate astronuc2026
-  cd AstroNuc2026_practical_session
-  pip install -r requirements.txt
-  ```
+
 ### ✅ Quick sanity check
 In python:
   ```python
