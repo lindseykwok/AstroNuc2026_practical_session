@@ -42,11 +42,11 @@ We recommend using a fresh environment
   ```
 
 Now navigate into the repository folder.\
-   If you downloaded the ZIP:
+>If you downloaded the ZIP:
    ```bash
   cd AstroNuc2026_practical_session-main
    ```
-   If you cloned with Git:
+>If you cloned with Git:
    ```bash
   cd AstroNuc2026_practical_session
    ```
